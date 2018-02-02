@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "ZebPay Bitcoin Tracker",
+    "description": "This extension will analyze BitCoin ZebPay price",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "bitcoin-icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
