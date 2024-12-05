@@ -8,7 +8,7 @@
 // xhr.send();
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://live.zebapi.com/api/v1/ticker?currencyCode=inr", true);
+xhr.open("GET", "https://www.zebapi.com/api/v1/market/BTC-INR/ticker?group=india", true);
 xhr.onreadystatechange = function() {
   if (xhr.readyState == 4) {
     myFunction(xhr.responseText);
